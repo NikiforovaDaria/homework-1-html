@@ -1,0 +1,162 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: auto;
+    height: 100%;
+    background: radial-gradient(at top, rgb(141, 193, 236), #192c3b);
+}
+
+.front-wrapper {
+    position: absolute !important;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.front-wrapper img {
+    width: 100%;
+    display: block;
+}
+
+.weather-date-info {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.date-info {
+    position: relative;
+    color: white;
+    list-style: none;
+    padding: 0;
+    margin: 80px;
+    overflow: hidden;
+    display: block;
+    float: right;
+    height: 250px;
+}
+
+.li-date-info {
+    float: left;
+    height: 200px;
+    margin: 0;
+    position: relative;
+}
+
+.first-li-date-info{
+    text-align: center;
+    padding-right: 35px;
+
+}
+h4.week-day{
+    font-size: 32px;
+    margin-bottom: 1px;
+}
+
+.month-day{
+    margin-top: 1px;
+}
+
+.weather-parameter {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+
+p.temperature {
+    text-align: left;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 100px;
+    position: relative;
+    font-weight: 100;
+}
+
+p.location{
+    font-size: 27px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+li.weather-wind{
+    display: inline-block;
+    height: 50px;
+}
+
+p.speed-wind{
+    margin-top: 5px;
+    font-size: 35px;
+}
+
+.week-day-temperature{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.waether-week-info{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.week-forecast {
+    background: rgba(44, 4, 67, 0.3);
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    width: 900px;
+}
+
+.week-forecast li {
+    color: white;
+    display: inline-block;
+    width: 145px;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+.fas {
+    font-size: 35px;
+}
+
+.fa-chevron-right,
+.fa-chevron-left {
+    
+    vertical-align: middle;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.week-day{
+    margin: 20px auto 10px auto;
+    font-size: 18px;
+}
+
+.svg{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
